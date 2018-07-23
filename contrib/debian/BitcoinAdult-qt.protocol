@@ -1,0 +1,11 @@
+[Protocol]
+exec=BitcoinAdult-qt '%u'
+protocol=BitcoinAdult
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

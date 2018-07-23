@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitcoinAdult
+Comment=BitcoinAdult P2P Cryptocurrency
+Comment[fr]=BitcoinAdult, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitcoinAdult, eşten eşe kriptografik sanal para birimi
+Exec=BitcoinAdult-qt %u
+Terminal=false
+Type=Application
+Icon=BitcoinAdult128
+MimeType=x-scheme-handler/BitcoinAdult;
+Categories=Office;Finance;

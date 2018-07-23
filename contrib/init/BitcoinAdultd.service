@@ -1,0 +1,26 @@
+[Unit]
+Description=BitcoinAdult's distributed currency daemon
+After=network.target
+
+[Service]
+User=BitcoinAdult
+Group=BitcoinAdult
+
+Type=forking
+PIDFile=/var/lib/BitcoinAdultd/BitcoinAdultd.pid
+
+ExecStart=/usr/bin/BitcoinAdultd -daemon -pid=/var/lib/BitcoinAdultd/BitcoinAdultd.pid \
+          -conf=/etc/BitcoinAdult/BitcoinAdult.conf -datadir=/var/lib/BitcoinAdultd
+
+ExecStop=-/usr/bin/BitcoinAdult-cli -conf=/etc/BitcoinAdult/BitcoinAdult.conf \
+         -datadir=/var/lib/BitcoinAdultd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

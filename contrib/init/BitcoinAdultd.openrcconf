@@ -1,0 +1,26 @@
+# /etc/conf.d/BitcoinAdultd: config file for /etc/init.d/BitcoinAdultd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/BitcoinAdult/BitcoinAdult.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/BitcoinAdultd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/BitcoinAdultd.pid"
+
+# Where to write BitcoinAdultd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/BitcoinAdultd"
+
+# User and group to own BitcoinAdultd process
+#BITCOIND_USER="BitcoinAdult"
+#BITCOIND_GROUP="BitcoinAdult"
+
+# Path to BitcoinAdultd executable
+#BITCOIND_BIN="/usr/bin/BitcoinAdultd"
+
+# Nice value to run BitcoinAdultd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
