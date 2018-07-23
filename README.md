@@ -5,6 +5,8 @@ Bitcoin Adult is fast, secure and private technically advanced Proof of Stake co
 
 
 Coin Name - Bitcoin Adult
+
+
 Coin Ticker - BTAD
 Type - Proof of Stake (PoS)
 Masternoode Collateral - 5000 BTAD
