@@ -1,0 +1,2 @@
+#define BUILD_SUFFIX fb01e38-dirty
+#define BUILD_DATE "2018-05-28 13:24:52 +0100"
